@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Gift </title>
+	 <link rel="stylesheet" href="../css/nav-bar.css">
+	 <link rel="stylesheet" href="../css/gift-voucher.css">	
+</head>
+<body>
+	<nav class="main-nav">
+		<h2> Gift Certificate </h2>
+		<div class="nav-list">	
+			<ul>
+				<li>
+					<a href="home.html"> 
+						<i class="fas fa-home home-icon"></i>
+
+						<br>
+
+						Home 
+					</a>
+				</li>
+
+				<li>
+					<a href="about-us.html"> 
+						<i class="fas fa-user about-us-icon"></i>
+
+						<br>
+
+						About Us 
+					</a>
+				</li>
+
+				<li>
+					<a href="contact-us.html"> 
+						<i class="fas fa-map-marker-alt contact-us-icon"></i>
+
+						<br>
+
+						Contact Us 
+					</a>
+				</li>
+
+				<li>
+					<a href="gift-voucher.html" class="active"> 
+						<i class="far fa-address-card gift-voucher-icon"></i>
+
+						<br>
+
+						Gift Voucher 
+					</a>
+				</li>
+
+				<li>
+					<a href="about-shoes.html"> 
+						<i class="fas fa-shopping-cart shopping-icon"></i>
+
+						<br>
+
+						Shopping 
+					</a>
+				</li>
+
+				<li>
+					<a href="delivery.html"> 
+						<i class="fas fa-truck truck-icon"></i>
+
+						<br>
+
+						Delivery Information 
+					</a>
+				</li>
+			</ul>			
+		</div>		
+	</nav>
+
+	<main>	
+		<p>
+			This gift certificate will be mailed to the recipient after your order has been paid
+		</p>
+		<form method="post" class="gift-form">
+			<ul>
+				<li>
+					<label> Your Name : </label>
+					<input type="text" class="name" placeholder="Enter Your Name" class="customer-data" required>
+				</li>
+
+				<li>
+					<label> Your Email : </label>
+					<input type="email" class="email" placeholder="Enter Your Email" class="customer-data" required>
+				</li>
+
+				<li>
+					<label> Recipient Name : </label>
+					<input type="text" class="name" placeholder="Enter Recipient Name" class="customer-data" required>
+				</li>
+
+				<li>
+					<label> Recipient Email : </label>
+					<input type="email" class="email" placeholder="Enter Recipient Email" class="customer-data" required>
+				</li>
+
+				<li>
+					<label> Type of gift : </label>
+					<ul class="gift-list">
+						<li>
+							<input type="radio" name="gift-type"> 
+								Birthday						
+						</li>
+
+						<li>
+							<input type="radio" name="gift-type">
+								Chritmas
+						</li>
+
+						<li>
+							<input type="radio" name="gift-type">
+								General
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					Message ( optional ) 
+
+					<br>
+
+					<textarea name="message" class="message" rows="8" cols="40">
+					</textarea>
+				</li>
+
+				<li>
+		            <input type="submit" value="Confirm" class="gift-confirm-button">		            
+				</li>
+			</ul>
+		</form>
+	</main>	
+
+	<script src="../js/buttonEvent.js"></script>
+	<script src="https://kit.fontawesome.com/dec20f06e2.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>

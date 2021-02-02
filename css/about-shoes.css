@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.about-shoes-main {
+	width: 85%;
+	margin: auto;
+	margin-top: 9rem;	
+}
+
+.about-shoes-main section {
+	margin: 1.5rem;
+	border-radius: 10px;
+	padding: 1.3rem 2rem;
+	background-color: #f5f5f5;
+	box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, .2);
+}
+
+.about-shoes-main section h3 {
+	font-size: 1.5em;
+	word-spacing: 3px;
+	padding-bottom: .5rem;
+}
+
+.about-shoes-main section p {
+	line-height: 6vh;
+	font-size: 1.2em;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+.about-shoes-main .women-section {
+	border: 2px solid #ff007f;
+}
+
+.about-shoes-main .men-section {
+	border: 2px solid #6f777e;
+}
+
+.about-shoes-main .child-section {
+	border: 2px solid #00d024;
+}
+
+.about-shoes-main .shopping-button {
+	margin: 3rem;
+	text-align: center;
+}
+
+.about-shoes-main .shopping-button button {
+	height: 6vh;
+	width: 13vw;
+	color: white;
+	margin: 1rem;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, .4);
+}
+
+.about-shoes-main .shopping-button button:hover {
+	color: #000;
+	background-color: #fff;	
+}
+
+.about-shoes-main .shopping-button .boy-shoe-button {
+	border-color: #6f777e;
+	background-color: #6f777e;
+}
+
+.about-shoes-main .shopping-button .girl-shoe-button {
+	border-color: #ff007f;
+ 	background-color: #ff007f; 	 	
+} 
+
+.about-shoes-main .shopping-button .child-shoe-button {
+	border-color: #00d024;
+	background-color: #00d024;
+}

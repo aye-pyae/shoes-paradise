@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/960_24_col.css">
+</head>
+<body>
+        
+    <main class="home-main container_24">   
+         <h1 class="home-header"> 
+            &hearts; &hearts; &hearts;
+             Shoes Paradise
+            &hearts; &hearts; &hearts; 
+        </h1>   
+
+        <section class="feature grid_6"> 
+            <ul>
+                <li> 
+                    <a href="#" class="selected"> Home </a>
+                </li>
+
+                <li>
+                    <a href="about-us.html"> About Us </a>
+                </li>
+                
+                <li>
+                    <a href="contact-us.html"> Contact Us </a>
+                </li> 
+
+                <li>
+                    <a href="gift-voucher.html"> Gift Voucher </a>
+                </li>      
+               
+                <li>
+                    <a href= "about-shoes.html"> Shopping </a>
+                </li>
+
+                <li>
+                    <a href="delivery.html"> Delivery Information </a> 
+                </li>      
+            </ul>               
+        </section>
+
+        <section class="gallery grid_16"> 
+            <img src="../images/g-009.png">
+            <img src="../images/g-006.png">
+            <img src="../images/g-002.png">
+            <img src="../images/g-008.jpg">
+            <img src="../images/b-007.jpg">
+            <img src="../images/b-011.jpg">
+            <img src="../images/b-015.png">
+            <img src="../images/b-019.png">
+            <img src="../images/c-001.jpg">
+            <img src="../images/c-004.jpg">
+            <img src="../images/c-010.png">
+            <img src="../images/c-021.png">
+        </section>
+        
+    </main>
+
+    <script>
+        console.log(localStorage.getItem('oldUser'));
+        if(!localStorage.getItem('oldUser')) {
+            alert('Welcome New User');
+        }
+
+        localStorage.setItem('oldUser', true);
+    </script>
+</body>
+</html>
+
+    	
+
+   

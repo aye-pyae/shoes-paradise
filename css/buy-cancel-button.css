@@ -1,0 +1,19 @@
+.buy-cancel-button {
+	margin: 3rem;	
+	text-align: center;
+}
+
+.buy-cancel-button button {
+	width: 20vh;
+	padding: 5px;
+	font-size: 1.2em;
+	margin: auto 15px;
+	border-radius: 5px;
+	text-align: center;
+	border: 2px solid #ff007f;
+}
+
+.buy-cancel-button button:hover {
+	transition: .5s;
+	background-color: #feb8c6;
+}

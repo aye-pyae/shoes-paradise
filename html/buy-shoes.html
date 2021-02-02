@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Purchase Shoes </title>
+	<link rel="stylesheet" href="../css/buy-shoes.css">
+</head>
+<body>
+	<h3> Welcome our lovely customers </h3>
+	<p> 
+		If you demand order at online, please fill the following :
+	</p>
+	<form method="post" class="purchase-form">
+		<ul>
+			<li>
+				<label> Please select shoe size : </label>
+				<input type="number" min="0" max="45" step="1" name="count" value="0" required>
+			</li>
+
+			<li>
+				<label> Please select color : </label>
+				<select size="1" name="color" id="color" required>
+					<option value="red">       Red       </option>
+					<option value="pink">      Pink      </option>
+					<option value="blue">      Blue      </option>
+					<option value="gold">      Gold      </option>
+					<option value="white">     White     </option>
+					<option value="brown">     Brown     </option>
+					<option value="black">     Black     </option>
+					<option value="silver">    Silver    </option>
+					<option value="yellow">    Yellow    </option>
+					<option value="orange">    Orange    </option>
+					<option value="purple">    Purple    </option>
+					<option value="chocolate"> Chocolate </option>
+				</select>
+			</li>
+
+			<li>
+				<label> Please enter code : </label>
+				<input type="text" required>
+			</li>
+		</ul>
+
+		<fieldset>
+		    <legend> Please enter your information </legend>
+		    <ul>
+		    	<li>
+		    		<label> Name: </label>
+		    		<input type="text" required>		    		
+		    	</li>
+
+		    	<li>
+		    		<label> Phone No: </label>
+		    		<input type="text" required>
+		    	</li>
+
+		    	<li>
+		    		<label> State / Division: </label>
+		    		<input type="text" required>	    		
+		    	</li>
+
+		    	<li>
+		    		<label> City: </label>
+		    		<input type="text" required>		    		
+		    	</li>
+
+		    	<li>
+		    		<label> Address: </label>
+		    		<input type="text" required>
+		    	</li>
+
+		    	<li class="confirm-cancel-button">		    		
+		    		<input type="submit" value="Confirm" class="confirm-buying">
+		            <button class="cancel-buying"> Cancel </button>
+		    	</li>
+		    </ul>
+        </fieldset>
+    </form>
+
+    <script src="../js/buttonEvent.js"></script>
+	
+</body>
+</html>

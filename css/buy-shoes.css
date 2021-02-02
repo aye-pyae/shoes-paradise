@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 60%;
+	margin: auto;
+	background-color: #fffcbb;
+}
+
+h3 {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+p {
+	padding-left: 2rem;
+	font-size: 1.2em;
+	padding-bottom: 1rem;
+}
+
+.purchase-form {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	padding: 1rem 3rem;
+	background-color: #ffffaa;
+	border: 2px solid #f5f5f5;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, .4);
+	border-radius: 10px;
+}
+
+.purchase-form ul li {
+	padding: .7rem;
+	font-size: 1.1em;
+	list-style-type: none;
+}
+
+.purchase-form ul li label {
+	display: block;
+
+}
+
+.purchase-form ul li input,
+.purchase-form ul li button,
+.purchase-form ul li select {
+	width: 30vh;
+	height: 4vh;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+
+.purchase-form fieldset {
+	width: 60%;
+	margin-top: 2rem;
+	padding: 1rem 1.5rem;	
+}
+
+.purchase-form fieldset legend {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.purchase-form fieldset ul li input,
+.purchase-form fieldset ul li button {
+	width: 40vh;
+}
+
+.purchase-form fieldset .confirm-cancel-button {
+	margin-left: 1.5rem;	
+}
+
+.purchase-form fieldset .confirm-cancel-button .confirm-buying,
+.purchase-form fieldset .confirm-cancel-button .cancel-buying {
+	width: 15vh;
+	margin: 3px;
+	font-size: .8em;
+}
+
+.purchase-form fieldset .confirm-cancel-button .confirm-buying:hover,
+.purchase-form fieldset .confirm-cancel-button .cancel-buying:hover {
+	color: white;
+	background-color: #deb887;
+}

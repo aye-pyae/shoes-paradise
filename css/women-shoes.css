@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+	background-color: #ffdbe9;
+}
+
+
+h1 {
+	font-size: 2.5em;
+	padding-top: 3rem;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 1rem;
+	text-shadow: 2px 2px 0 #fff;
+}
+
+main {
+	margin: 2rem;
+}
+
+.shoes-table {
+	padding: 2.5rem;
+	padding-top: 1rem;
+}
+
+.women-main .shoes-table {
+	background-color: #fffaf0;
+}
+
+.women-main .shoes-table img {
+	width: 20vh;
+	height: 20vh;
+	border-radius: 5px;
+	margin-top: 2rem;
+	margin-left: 2.5rem;
+	margin-bottom: 1rem;
+	border: 2px solid #ff007f;
+	box-shadow: 5px 3px 3px 1px #ffc0cb;
+	transition: transform .5s ease-in-out;
+}
+
+.shoes-table img:hover {
+	transform: scale(1.1);
+}
+
+.shoes-table span ul li {
+	padding: 6px;
+	font-size: 1em;	
+	margin-left: 3rem;
+	list-style-type: none;
+}
